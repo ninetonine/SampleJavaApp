@@ -1,0 +1,8 @@
+#ignore target files
+target/**
+**/*.class
+
+#ignore eclipse property files
+.classpath
+.project
+.settings

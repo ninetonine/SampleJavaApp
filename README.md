@@ -1,6 +1,6 @@
 # sample-maven-java-webapp
 Simple Java application
-
+ 
 <pre>
 To specify the version, add the following to the command line '-Dminor-version=<version>'
 To run the integration tests, add the following to the command line '-Dmy.location=<host>'
