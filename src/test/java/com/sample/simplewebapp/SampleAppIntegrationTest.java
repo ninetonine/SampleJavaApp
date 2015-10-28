@@ -16,7 +16,7 @@ public class SampleAppIntegrationTest extends TestCase {
 	public void testGetMsg() throws Exception {
                 String url = System.getProperty("my.location");
 
-                String api = url + "/sample-app/service/itari";
+                String api = url + "/simpleapp";
 
                 System.out.println("This is url: " + api);
 
@@ -29,9 +29,11 @@ public class SampleAppIntegrationTest extends TestCase {
                 System.out.println("This is the status code: ");
                 System.out.println( statusCode );
 
+                String expectedValue = "Hello World! Update"
+
       		if (statusCode == HttpStatus.SC_OK) {
                       byte[] responseBody = method.getResponseBody();
-                      assertEquals("Hello: itari", new String(responseBody));
+                      assertEquals(expectedValue, new String(responseBody));
                 }
                 else {
  		      assertTrue(false); //this should fail
