@@ -29,7 +29,7 @@ public class SampleAppIntegrationTest extends TestCase {
                 System.out.println("This is the status code: ");
                 System.out.println( statusCode );
 
-                String expectedValue = "Hello World! Update\n";
+                String expectedValue = "Hello World! UpdateUpdate\n";
 
       		if (statusCode == HttpStatus.SC_OK) {
                       byte[] responseBody = method.getResponseBody();
