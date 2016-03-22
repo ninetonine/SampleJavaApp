@@ -4,12 +4,12 @@
 	<groupId>com.sample</groupId>
 	<artifactId>simple-web-app</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-${minor-version}</version>
+	<version>1.0.${minor.version}</version>
 	<name>simple-web-app Maven Webapp</name>
 	<url>http://maven.apache.org</url>
        
         <properties>
-             <minor-version></minor-version>
+             <minor.version>0</minor.version>
         </properties>
 
 	<dependencies>
@@ -92,6 +92,9 @@
         <profiles>
               <profile>
                    <id>utest</id>
+        	   <activation>
+            	        <activeByDefault>true</activeByDefault>
+        	   </activation>
                    <build>
                     <plugins>
                       <plugin>
