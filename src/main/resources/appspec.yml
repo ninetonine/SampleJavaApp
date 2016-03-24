@@ -1,8 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: \
-    destination: /var/lib/tomcat
+  - source: .\index.jsp
+    destination: /usr/share/tomcat8/webapps/sampleapp
+  - source: .\WEB-INF
+    destination: /usr/share/tomcat8/webapps/sampleapp/WEB-INF
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
