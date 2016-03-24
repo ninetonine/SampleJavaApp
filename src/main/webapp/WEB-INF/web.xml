@@ -5,7 +5,6 @@
 <web-app>
 	<display-name>Archetype Created Web Application</display-name>
 
-	<!-- RestEasy specific configuration for deployment to Jboss eap 6. RestEasy 
 	<context-param>
 		<param-name>resteasy.scan</param-name>
 		<param-value>true</param-value>
