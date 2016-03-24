@@ -1,9 +1,9 @@
 version: 0.0
 os: linux
 files:
-  - source: .\index.jsp
+  - source: index.jsp
     destination: /usr/share/tomcat8/webapps/sampleapp
-  - source: .\WEB-INF
+  - source: WEB-INF
     destination: /usr/share/tomcat8/webapps/sampleapp/WEB-INF
 hooks:
   BeforeInstall:
