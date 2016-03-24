@@ -15,3 +15,9 @@ The hibernate.properties file should be copied to this location, for the databas
 <pre>
   mvn clean package -Dminor.version=${version}
 </pre>
+
+# To test that app is working you can hit the following urls
+
+http://{url}/sampleapp
+http://{url}/sampleapp/rest/service/test
+http://{url}/sampleapp/rest/service/persons
