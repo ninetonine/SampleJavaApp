@@ -1,5 +1,6 @@
 # sample-maven-java-webapp
 This is a simple java application. This can be used for testing CICD processes as well.
+
  
 <pre>
 To specify the version, add the following to the command line '-Dminor-version=<version>'
