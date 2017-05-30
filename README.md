@@ -2,6 +2,7 @@
 This is a simple java application. This can be used for testing CICD processes as well.
 
 #Making a change
+#Making another change
  
 <pre>
 To specify the version, add the following to the command line '-Dminor-version=<version>'
