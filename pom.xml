@@ -4,12 +4,12 @@
 	<groupId>com.sample</groupId>
 	<artifactId>simple-web-app</artifactId>
 	<packaging>war</packaging>
-	<version>1.${minor.version}.0</version>
+	<version>${artifact.version}</version>
 	<name>simple-web-app Maven Webapp</name>
 	<url>http://maven.apache.org</url>
        
         <properties>
-             <minor.version>0</minor.version>
+             <artifact.version>0</artifact.version>
         </properties>
 
 	<dependencies>
@@ -79,6 +79,7 @@
     </dependencies>
 
 	<build>
+               <finalName>simple-web-app-${artifact.version}</finalName>
                <plugins>
 <plugin>
     <artifactId>maven-resources-plugin</artifactId>
