@@ -1,4 +1,9 @@
 Making some more changes
 A new change file
+<<<<<<< HEAD
 #Jul 14 demo changes"
 
+=======
+# Demo verification by venu : dated 12 Jul 2017
+commiting new changes
+>>>>>>> cc53ed0c1ecc760cfe68d4a0cfdcffd4899e197a
